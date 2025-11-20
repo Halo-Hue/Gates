@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    }
+ img {
+  width: 100px;
+  margin-bottom: 20px;
+ }
+ .button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+ button {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+ }
+ 
+</style>
+</head>
+<body>
+
+<img id="myImage" src="And.png" style="width: 200px"><br>
+
+<button onclick="document.getElementById('myImage').src='And.png'">00</button>
+<button onclick="document.getElementById('myImage').src='And2.png'">10</button>
+<button onclick="document.getElementById('myImage').src='And3.png'">01</button>
+<button onclick="document.getElementById('myImage').src='And4.png'">11</button><br>
+
+</body>
+
+</html>
